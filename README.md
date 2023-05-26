@@ -1,34 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Jud Weather Forecast APP - Frontend
+<p>This is the frontend for the project, it is connected to <a href="https://github.com/judcodeofficial/jud-weather-forecast-back">backend project</a> to retrieve 5 days forecast depending on given city.</p>
 
-## Getting Started
+## Prerequisites
+Before you can run the application, make sure you have the following created/installed:
+1. Cloned <a href="https://github.com/judcodeofficial/jud-weather-forecast-back">backend project</a> (Follow steps from the backend docs)
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+```bash  
+git clone https://github.com/judcodeofficial/jud-weather-forecast-back.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. npm
+3. NodeJS
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Installation
+<p>It's quite easy to install, follow this steps:</p>
+<p>
+    
+1. Clone this repository to your local machine:
+    
+```bash
+git clone https://github.com/judcodeofficial/jud-weather-forecast-front.git
+```
+    
+2. Navigate to the project directory:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash  
+cd jud-weather-forecast-front
+```
+    
+3. Install required dependencies:
+    
+```bash  
+npm install
+```
 
-## Learn More
+4. Start project:
+    
+```bash  
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+5. There you go, it's ready !
+<img src="https://github.com/judcodeofficial/jud-weather-forecast-front/assets/97370405/89f59b17-4033-4efc-b96c-57f7f33e3793" />
+  
+</p>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Usage
+<p>
+1. Open your browser and go to(Depending on your ports availability, see your terminal for port information):
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash  
+http://localhost:3000/
+```
 
-## Deploy on Vercel
+2. Select a city from the list box
+3. It gives you the required information
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<img src="https://github.com/judcodeofficial/jud-weather-forecast-front/assets/97370405/de7af64c-4379-4adb-9fce-1df6a5349fbd" />
+  
+</p>
